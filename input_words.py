@@ -46,4 +46,4 @@ if st.button('save word'):
     st.write('word has been saved')
 
 df = pd.read_csv('western_armenian_words.csv')
-st.write(df)
+st.write(df.sort_values(['category','subcategory','english']))
