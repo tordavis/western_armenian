@@ -161,7 +161,7 @@ def main():
                     i = df.loc[df['pronounciation'] == word]
                     st.write(i)
         if search == 'table':
-            filter = st.selectbox("Would you like to filter based on lesson or category?",['lesson','category'])
+            filter = st.selectbox("Would you like to filter based on lesson or category?",['category','lesson'])
             if filter == 'category':
                 st.dataframe(
                     data = filter_dataframe(df),
