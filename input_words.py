@@ -23,9 +23,20 @@ st.header("tool for tori to add new armenian words as they learn them :)")
 ##############################################################################
 
 categories = {
-    'people': ['family','friends'],
-    'food': ['drinks','vegetables','fruit'],
-    'things':['nature','music']
+
+    'beings':       ['people','family','animals'],
+    'food':         ['drinks','vegetables','fruit','grains','spices',
+                     'protein','general','uncategorized','dishes'],
+    'things':       ['nature','music','clothes','toys','kitchen',
+                     'body parts','general','non-physical'],
+    'time':         ['months','days','time','general'],
+    'other':        ['weather','colors','numbers','rank'],
+    'places':       ['countries','continents','armenian places',
+                     'general','directions'],
+    'verbs':        ['infinative verbs','present tense','past tense',
+                     'future tense','past perfect tense','imperative verb',
+                     'irregular conjugation'],
+    'descriptions': ['size','quantity','quality','behavior']
               }
 
 #### Append to CSV ####
