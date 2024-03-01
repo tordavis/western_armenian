@@ -181,3 +181,46 @@ other,rank,eighth,ութերորդ,ooterort,13
 other,rank,ninth,իներորդ,inerort,13
 other,rank,tenth,տասերորդ,daserort,13
 other,rank,last,վերջին,verchin,16
+time,months,month,ամիս,amis,22
+time,months,January,Յունուար,Hoonvar,22
+time,months,February,Փետրուար,Pedrvar,22
+time,months,March,Մարտ,Mard,22
+time,months,April,Ապրիլ,Abril,22
+time,months,May,Մայիս,Mayis,22
+time,months,June,Յունիս,Hoonis,22
+time,months,July,Յուլիս,Hoolis,22
+time,months,August,Օգոստոս,Okosdos,22
+time,months,September,Սեպտեմբեր,Sebdemper,22
+time,months,October,Հոկտեմբեր,Hogdemper,22
+time,months,November,Նոյեմբեր,Noyemper,22
+time,months,December,Դեկտեմբեր,Tegdemper,22
+time,days,week,շաբաթ,shapat,16
+time,days,monday,երկուշաբթի,yergooshapti,16
+time,days,tuesday,երեքշաբթի,yerekshapti,16
+time,days,wednesday,չորեքշաբթի,chorekshapti,16
+time,days,thursday,հինգշաբթի,hinkshapti,16
+time,days,friday,ուրբաթ,oorpat,16
+time,days,saturday,շաբաթ օր,shapat or,16
+time,days,sunday,կիրակի,giragi,16
+time,time,morning,առտու,ardoo,8
+time,time,morning (formal),առաւօտ,aravod,8
+time,time,noon,կէսօր,gesor,8
+time,time,afternoon,կէսօրէ վերջ,gesore verch,8
+time,time,evening,իրիկուն,irigoon,8
+time,time,evening (formal),երեկոյ,yerego,8
+time,time,night,գիշեր,kisher,8
+time,days,day,օր,or,1
+time,days,today,այսօր,aysor,1
+time,days,yesterday,երէկ,yereg,16
+time,days,tomorrow,վաղը,vaghuh,16
+time,time,present,ներկայ,nerga,17
+time,time,future,ապարռնի,abarni,17
+time,time,past,անցեալ,antsyal,17
+time,time,before,առաջ,arach,
+time,time,after,վերջ,verch,
+time,time,time (measurement),ժամ,jam,
+time,time,time (period),ժամանակ,jamanag,
+time,general,birthday,տարեդարձ,daretarts,
+time,general,early,կանուխ,ganookh,
+time,general,until,մինչեւ,minchev,
+time,general,year,տարի,dari,
