@@ -35,3 +35,100 @@ food,fruit,eggplant,սմբուկ,smpoog
 food,fruit,grapefruit,կարմիր նարինջ,garmir narinch
 food,fruit,dried fruit,չիր,chir
 food,fruit,olive,ձիթապտուղ,tsitabdoogh
+food,protein,lentil,ոսպ,vosb
+food,protein,meat,միս,mis
+food,protein,egg,հաւկիթ,havgit
+food,protein,chicken,հաւ,hav
+food,grains,bread,հաց,hats
+food,grains,rice,բրինձ,prints
+food,grains,bulgar,պլղուր,blghoor
+food,grains,biscuit,պիսքուիթ,biskuit
+food,grains,dough,խմոր,khmor
+food,grains,flour,ալյուր,alyoor
+food,spices,granulated sugar,շաքարավազ,shakaravaz
+food,spices,sugar,շաքար,shakar
+food,spices,cinnamon,դարչին,tarchin
+food,spices,parsley,ազատքեղ,azadkegh
+food,spices,mint,անանուխ,ananookh
+food,spices,salt,աղ,agh
+food,spices,black pepper,սեւ պղպեղ,sev bghbegh
+food,dishes,,ղափամա,ghapama
+food,dishes,,իչ,ich
+food,dishes,,մանթը,mantuh
+food,general,food,ճաշ,jash
+food,general,homemade food,տնական ճաշ,dnagan jash
+food,general,dinner,ընթրիք,uhntrik
+food,general,family dinner,ընտանեկան ընթրիք,uhdanegan uhntrik
+food,general,baked good,կարկանդակ,gargantag
+food,general,breakfast,նախաճաշ,nakhajash
+food,uncategorized,cheese,պանիր,banir
+food,uncategorized,ice cream,պաղպաղակ,baghbaghag
+food,uncategorized,honey,մեղր,meghr
+food,uncategorized,chestnut,շագանակ,shakanag
+food,uncategorized,walnut,ընկոյզ,ungooyz
+food,uncategorized,mushroom,սունկ,soong
+food,general,soup,ապուր,aboor
+food,uncategorized,olive oil,ձեթ,tset
+food,uncategorized,yogurt,մածուն,madzoon
+beings,people,friend,ընկեր,uhnger
+beings,people,female friend,ընկերուհի,uhngeroohi
+beings,people,soldier,զինուոր,zinvor
+beings,people,ass,էշ,esh
+beings,people,twin / couple,զոյգ,zooyk
+beings,people,girl,աղջիկ,aghchig
+beings,people,king,թագաւոր,takavor
+beings,people,queen,թագուհի,takoohi
+beings,people,people / society / community,ժողովուրդ,joghavoort
+beings,people,prince,իշխան,ishkhan
+beings,people,boy,տղա,dgha
+beings,people,children,պզտիկներ,bzdigner
+beings,people,person (singular),մարդ,mart
+beings,people,person (groups) / soul,հոգի,hoki
+beings,people,my love / my soul,հոգիս,hokis
+beings,people,guest,հիւր,hyoor
+beings,people,armenian person,հայ,hay
+beings,people,classmate,դասընկեր,tasuhnger
+beings,people,female classmate,դասընկերուհի,tasuhngeroohi
+beings,people,member,անդամ,antam
+beings,people,owner,ունեցող,oonetsogh
+beings,people,crowd of armenians,հայութիւն,hayootyoon
+beings,people,watchmaker,ժամագործ,jamakordz
+beings,people,protector / keeper,պահապան,bahaban
+beings,people,god,աստուածն,asdvadzn
+beings,people,children,փոքրիկ,pokrig
+beings,people,greek person,յոյն,hooyn
+beings,family,family,ընտանիք,uhndanik
+beings,family,parents,ծնողք,dznoghk
+beings,family,father,հայր,hayr
+beings,family,dad,հայրիկ,hayrig
+beings,family,papa,պապա,baba
+beings,family,mother,մայր,mayr
+beings,family,mom,մայրիկ,mayrig
+beings,family,mama,մամա,mama
+beings,family,spouse,ամուսին,amoosin
+beings,family,wife,կին,gin
+beings,family,child,զաւակ,zavag
+beings,family,brother,եղբայր,yeghpayr
+beings,family,brother,աղբարիկ,aghparig
+beings,family,little brother,եղբայրիկ,yeghpayrig
+beings,family,sister,քոյր,kooyr
+beings,family,little sister,քոյրիկ,kooyrig
+beings,family,grandfather,մեծ հայր,medz hayr
+beings,family,grandpa,մեծ պապա,medz baba
+beings,family,grandmother,մեծ մայր,medz mayr
+beings,family,grandma,մեծ մամա,medz mama
+beings,family,grandchild,թոռնիկ,tornig
+beings,animals,cat,կատու,gadoo
+beings,animals,wolf,գայլ,kayl
+beings,animals,bird,թռչուն,trchoon
+beings,animals,butterfly,թիթերնիկ,titernig
+beings,animals,tail,պոչ,boch
+beings,animals,tail (cute),պոչիկ,bochig
+beings,animals,dog,շուն,shoon
+beings,animals,puppy,շունիկ,shoonig
+beings,animals,donkey,էշ,esh
+beings,animals,bee,մեղու,meghoo
+beings,animals,fish,ձուկ,tsoog
+beings,animals,horse,ձի,tsi
+beings,animals,mouse,մուկ,moog
+beings,animals,mouse (cute),մկնիկ,mgnig

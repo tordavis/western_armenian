@@ -44,8 +44,9 @@ categories = {
 category = st.selectbox("Please select the word category",categories.keys())
 subcategory = st.selectbox("Please select the word subcategory",categories[category])
 english = st.text_input('Please enter the word in english - for example: cat')
-հայերէն = st.text_input('Please enter the word in հայերէն - for example: կատու')
 pronounciation = st.text_input('Please enter the pronounciation of the word - for example: gadoo')
+հայերէն = st.text_input('Please enter the word in հայերէն - for example: կատու')
+
 
 newEntry = [category, subcategory, english, հայերէն, pronounciation]
 
