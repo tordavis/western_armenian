@@ -181,3 +181,93 @@ other,rank,eighth,ութերորդ,ooterort,13
 other,rank,ninth,իներորդ,inerort,13
 other,rank,tenth,տասերորդ,daserort,13
 other,rank,last,վերջին,verchin,16
+time,months,month,ամիս,amis,22
+time,months,January,Յունուար,Hoonvar,22
+time,months,February,Փետրուար,Pedrvar,22
+time,months,March,Մարտ,Mard,22
+time,months,April,Ապրիլ,Abril,22
+time,months,May,Մայիս,Mayis,22
+time,months,June,Յունիս,Hoonis,22
+time,months,July,Յուլիս,Hoolis,22
+time,months,August,Օգոստոս,Okosdos,22
+time,months,September,Սեպտեմբեր,Sebdemper,22
+time,months,October,Հոկտեմբեր,Hogdemper,22
+time,months,November,Նոյեմբեր,Noyemper,22
+time,months,December,Դեկտեմբեր,Tegdemper,22
+time,days,week,շաբաթ,shapat,16
+time,days,monday,երկուշաբթի,yergooshapti,16
+time,days,tuesday,երեքշաբթի,yerekshapti,16
+time,days,wednesday,չորեքշաբթի,chorekshapti,16
+time,days,thursday,հինգշաբթի,hinkshapti,16
+time,days,friday,ուրբաթ,oorpat,16
+time,days,saturday,շաբաթ օր,shapat or,16
+time,days,sunday,կիրակի,giragi,16
+time,time,morning,առտու,ardoo,8
+time,time,morning (formal),առաւօտ,aravod,8
+time,time,noon,կէսօր,gesor,8
+time,time,afternoon,կէսօրէ վերջ,gesore verch,8
+time,time,evening,իրիկուն,irigoon,8
+time,time,evening (formal),երեկոյ,yerego,8
+time,time,night,գիշեր,kisher,8
+time,days,day,օր,or,1
+time,days,today,այսօր,aysor,1
+time,days,yesterday,երէկ,yereg,16
+time,days,tomorrow,վաղը,vaghuh,16
+time,time,present,ներկայ,nerga,17
+time,time,future,ապարռնի,abarni,17
+time,time,past,անցեալ,antsyal,17
+time,time,before,առաջ,arach,
+time,time,after,վերջ,verch,
+time,time,time (measurement),ժամ,jam,
+time,time,time (period),ժամանակ,jamanag,
+time,general,birthday,տարեդարձ,daretarts,
+time,general,early,կանուխ,ganookh,
+time,general,until,մինչեւ,minchev,
+time,general,year,տարի,dari,
+other,weather,sun,արեւ,arev,0
+other,weather,cloud,ամպ,amb,0
+other,weather,rain,անձրեւ,antsrev,0
+other,weather,season,եղանակ,yeghanag,0
+other,weather,summer,ամառ,amar,0
+other,weather,weather,օդ,ot,0
+other,weather,hot,տաք,dak,0
+other,weather,cold,պաղ,bagh,1
+other,weather,spring,գարուն,karoon,3
+other,weather,autumn,աշուն,ashoon,3
+other,weather,winter,ձմեռ,tsmer,3
+other,weather,mild,զով,zov,5
+other,weather,dry,չոր,chor,24
+places,armenian places,Ararad mountain,Արարատ լեռ,Ararad ler,4
+places,armenian places,Lake Sevan,Սեւանայ լիճ,Sevana lidj,11
+places,continents,Europe,Եւրոպա,Yevroba,13
+places,countries,Armenia,Հայաստան,Hayasdan,5
+places,countries,America,Ամերիկա,Ameriga,6
+places,countries,Italy,Իտալիա,Idalia,7
+places,countries,France,Ֆրանսա,Fransa,26
+places,countries,Greece,Յունաստան,Hoonasdan,27
+places,directions,north,հիւսիս,hyoosis,13
+places,directions,south,հարաւ,harav,13
+places,directions,east,արեւելք,arevelk,13
+places,directions,west,արեւմուտք,arevmoodk,13
+places,directions,northern,հիւսիսային,hyoosisayin,13
+places,directions,southern,հարաւային,haravayin,13
+places,directions,eastern,արեւելեան,arevelyan,13
+places,directions,western,արեւմտեան,arevmedyan,13
+places,general,home,տուն,doon,
+places,general,library,գրադարան,krataran,
+places,general,church,եկեղեցի,yegeghetsi,
+places,general,motherland,հայրենիքն,hayerenikn,
+places,general,prison,բանտ,pand,
+places,general,pharmacy,դեղարան,tegharan,
+places,general,university,համալսարան,hamalsaran,
+places,general,restaurant,ճաշարան,jasharan,
+places,general,place,տեղէն,deghen,
+places,general,museum,թանգարան,tankaran,
+places,general,everywhere,ամէն տեղ,amen degh,
+places,general,city,քաղաք,kaghak,
+places,general,kitchen,խոհանոց,khohanots,
+places,general,capital city,մայրաքաղաք,mayrakaghak,
+places,general,school,դպրոց,tbrots,
+places,general,classroom,դասարան,tasaran,
+places,general,here,հոս,hos,
+places,general,there,հոն,hon,
