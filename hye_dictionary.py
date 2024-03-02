@@ -100,41 +100,41 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
 def main():
 
-    user_mode = st.selectbox("Please select the mode you want to work in:", mode)
+    # user_mode = st.selectbox("Please select the mode you want to work in:", mode)
 
-    #### Append to CSV ####
+    # #### Append to CSV ####
 
-    if user_mode == 'append':
-        category =          st.selectbox("Please select the word category",categories.keys())
-        subcategory =       st.selectbox("Please select the word subcategory",categories[category])
-        english =           st.text_input('Please enter the word in english - for example: cat')
-        pronounciation =    st.text_input('Please enter the pronounciation of the word - for example: gadoo')
-        հայերէն =           st.text_input('Please enter the word in հայերէն - for example: կատու')
-        lesson =            st.text_input('Please enter the lesson number from class with Arvin')
+    # if user_mode == 'append':
+    #     category =          st.selectbox("Please select the word category",categories.keys())
+    #     subcategory =       st.selectbox("Please select the word subcategory",categories[category])
+    #     english =           st.text_input('Please enter the word in english - for example: cat')
+    #     pronounciation =    st.text_input('Please enter the pronounciation of the word - for example: gadoo')
+    #     հայերէն =           st.text_input('Please enter the word in հայերէն - for example: կատու')
+    #     lesson =            st.text_input('Please enter the lesson number from class with Arvin')
 
-        newEntry = [category, subcategory, english, հայերէն, pronounciation,lesson]
+    #     newEntry = [category, subcategory, english, հայերէն, pronounciation,lesson]
 
-        if st.button('save word'):
-            with open('western_armenian_words.csv','a') as f_object:
-                writer_object = writer(f_object)
-                writer_object.writerow(newEntry)
-                f_object.close()
-            st.write('word has been saved')
+    #     if st.button('save word'):
+    #         with open('western_armenian_words.csv','a') as f_object:
+    #             writer_object = writer(f_object)
+    #             writer_object.writerow(newEntry)
+    #             f_object.close()
+    #         st.write('word has been saved')
 
-        curated_df = df[(df['category'] == category) & (df['subcategory'] == subcategory)]
-        curated_df.sort_values('english')
+    #     curated_df = df[(df['category'] == category) & (df['subcategory'] == subcategory)]
+    #     curated_df.sort_values('english')
 
-        if st.button('refresh table'):
-            st.dataframe(
-            data = curated_df,
-            width = 1000,
-            hide_index = 1
-                        )
+    #     if st.button('refresh table'):
+    #         st.dataframe(
+    #         data = curated_df,
+    #         width = 1000,
+    #         hide_index = 1
+    #                     )
 
     #### View CSV ####
 
     # change in dev
-    # user_mode = 'view'
+    user_mode = 'view'
 
     if user_mode == 'view':
 
