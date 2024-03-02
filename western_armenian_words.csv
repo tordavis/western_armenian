@@ -224,3 +224,50 @@ time,general,birthday,տարեդարձ,daretarts,
 time,general,early,կանուխ,ganookh,
 time,general,until,մինչեւ,minchev,
 time,general,year,տարի,dari,
+other,weather,sun,արեւ,arev,0
+other,weather,cloud,ամպ,amb,0
+other,weather,rain,անձրեւ,antsrev,0
+other,weather,season,եղանակ,yeghanag,0
+other,weather,summer,ամառ,amar,0
+other,weather,weather,օդ,ot,0
+other,weather,hot,տաք,dak,0
+other,weather,cold,պաղ,bagh,1
+other,weather,spring,գարուն,karoon,3
+other,weather,autumn,աշուն,ashoon,3
+other,weather,winter,ձմեռ,tsmer,3
+other,weather,mild,զով,zov,5
+other,weather,dry,չոր,chor,24
+places,armenian places,Ararad mountain,Արարատ լեռ,Ararad ler,4
+places,armenian places,Lake Sevan,Սեւանայ լիճ,Sevana lidj,11
+places,continents,Europe,Եւրոպա,Yevroba,13
+places,countries,Armenia,Հայաստան,Hayasdan,5
+places,countries,America,Ամերիկա,Ameriga,6
+places,countries,Italy,Իտալիա,Idalia,7
+places,countries,France,Ֆրանսա,Fransa,26
+places,countries,Greece,Յունաստան,Hoonasdan,27
+places,directions,north,հիւսիս,hyoosis,13
+places,directions,south,հարաւ,harav,13
+places,directions,east,արեւելք,arevelk,13
+places,directions,west,արեւմուտք,arevmoodk,13
+places,directions,northern,հիւսիսային,hyoosisayin,13
+places,directions,southern,հարաւային,haravayin,13
+places,directions,eastern,արեւելեան,arevelyan,13
+places,directions,western,արեւմտեան,arevmedyan,13
+places,general,home,տուն,doon,
+places,general,library,գրադարան,krataran,
+places,general,church,եկեղեցի,yegeghetsi,
+places,general,motherland,հայրենիքն,hayerenikn,
+places,general,prison,բանտ,pand,
+places,general,pharmacy,դեղարան,tegharan,
+places,general,university,համալսարան,hamalsaran,
+places,general,restaurant,ճաշարան,jasharan,
+places,general,place,տեղէն,deghen,
+places,general,museum,թանգարան,tankaran,
+places,general,everywhere,ամէն տեղ,amen degh,
+places,general,city,քաղաք,kaghak,
+places,general,kitchen,խոհանոց,khohanots,
+places,general,capital city,մայրաքաղաք,mayrakaghak,
+places,general,school,դպրոց,tbrots,
+places,general,classroom,դասարան,tasaran,
+places,general,here,հոս,hos,
+places,general,there,հոն,hon,
