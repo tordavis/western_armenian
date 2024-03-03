@@ -55,7 +55,8 @@ categories = {
                      'irregular conjugation'],
     'adjectives':   ['size','quantity','quality','behavior','physical state',
                      'physical description','time','uncategorized adj'],
-    'language':     ['prefix','suffix','alphabet','pronouns','languages','grammatical terms']
+    'language':     ['prefix','suffix','alphabet','pronouns','languages','grammatical terms'],
+    'conversation': ['questions','answers']
               }
 
 mode = ['append','view']

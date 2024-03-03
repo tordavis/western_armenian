@@ -343,3 +343,7 @@ adjectives,physical state,far,հեռու,heroo,31
 adjectives,time,still,դեռ,ter,31
 adjectives,time,already,արդեն,arten,31
 adjectives,time,years old,տարեկան,daragan,31
+adjectives,time,late,ուշ,oosh,31
+adjectives,quantity,both,երկուքը,yergookuh,31
+conversation,questions,How old are you?,Քանի՞ տարեկան ես։,Kani daregan es?,31
+conversation,answers,I am ____ years old.,Ես ____ տարեկան եմ։,Yes ____ dareganem.,31
