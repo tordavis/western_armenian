@@ -33,7 +33,7 @@ st.header("tool for tori to review western armenian words as they learn them :)"
 #### Read in CSV ####
 
 df = pd.read_csv('western_armenian_words.csv')
-df['english'] = pd.to_numeric(df['english'], errors='ignore')
+df['english word'] = pd.to_numeric(df['english word'], errors='ignore')
 
 ##############################################################################
 
@@ -43,17 +43,19 @@ categories = {
 
     'beings':       ['people','family','animals'],
     'food':         ['drinks','vegetables','fruit','grains','spices',
-                     'protein','general','uncategorized','dishes'],
+                     'protein','general food','uncategorized','dishes'],
     'things':       ['nature','music','clothes','toys','kitchen',
-                     'body parts','general','non-physical'],
-    'time':         ['months','days','time','general'],
+                     'body parts','general things','non-physical'],
+    'time':         ['months','days','time'],
     'other':        ['weather','colors','numbers','rank'],
     'places':       ['countries','continents','armenian places',
-                     'general','directions'],
+                     'general places','directions'],
     'verbs':        ['infinative verbs','present tense','past tense',
                      'future tense','past perfect tense','imperative verb',
                      'irregular conjugation'],
-    'descriptions': ['size','quantity','quality','behavior']
+    'adjectives':   ['size','quantity','quality','behavior','physical state',
+                     'physical description','time','uncategorized adj'],
+    'language':     ['prefix','suffix','alphabet','pronouns','languages','grammatical terms']
               }
 
 mode = ['append','view']
@@ -80,17 +82,18 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     modify = st.checkbox("Add filters")
 
     if not modify:
-        return df
+        return df.sort_values(['category','subcategory','english word'])
 
     df = df.copy()
 
     modification_container = st.container()
         
     with modification_container:
-        category =          st.selectbox("Please select the word category",categories.keys())
-        category_filter = st.multiselect("Filter within category", categories[category])
+        category =          st.selectbox("Please select the word category",sorted(categories.keys()))
+        category_filter = st.multiselect("Filter within category", sorted(categories[category]))
 
     df = df[df['subcategory'].isin(category_filter)]
+    df = df.sort_values(['category','subcategory','english word'])
 
     return df
 
@@ -100,41 +103,41 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
 def main():
 
-    # user_mode = st.selectbox("Please select the mode you want to work in:", mode)
+    user_mode = st.selectbox("Please select the mode you want to work in:", mode)
 
-    # #### Append to CSV ####
+    #### Append to CSV ####
 
-    # if user_mode == 'append':
-    #     category =          st.selectbox("Please select the word category",categories.keys())
-    #     subcategory =       st.selectbox("Please select the word subcategory",categories[category])
-    #     english =           st.text_input('Please enter the word in english - for example: cat')
-    #     pronounciation =    st.text_input('Please enter the pronounciation of the word - for example: gadoo')
-    #     հայերէն =           st.text_input('Please enter the word in հայերէն - for example: կատու')
-    #     lesson =            st.text_input('Please enter the lesson number from class with Arvin')
+    if user_mode == 'append':
+        category =          st.selectbox("Please select the word category",sorted(categories.keys()))
+        subcategory =       st.selectbox("Please select the word subcategory",sorted(categories[category]))
+        english =           st.text_input('Please enter the word in english - for example: cat')
+        pronounciation =    st.text_input('Please enter the pronounciation of the word - for example: gadoo')
+        հայերէն =           st.text_input('Please enter the word in հայերէն - for example: կատու')
+        lesson =            st.text_input('Please enter the lesson number from class with Arvin')
 
-    #     newEntry = [category, subcategory, english, հայերէն, pronounciation,lesson]
+        newEntry = [category, subcategory, english, հայերէն, pronounciation,lesson]
 
-    #     if st.button('save word'):
-    #         with open('western_armenian_words.csv','a') as f_object:
-    #             writer_object = writer(f_object)
-    #             writer_object.writerow(newEntry)
-    #             f_object.close()
-    #         st.write('word has been saved')
+        if st.button('save word'):
+            with open('western_armenian_words.csv','a') as f_object:
+                writer_object = writer(f_object)
+                writer_object.writerow(newEntry)
+                f_object.close()
+            st.write('word has been saved')
 
-    #     curated_df = df[(df['category'] == category) & (df['subcategory'] == subcategory)]
-    #     curated_df.sort_values('english')
+        curated_df = df[(df['category'] == category) & (df['subcategory'] == subcategory)]
+        curated_df.sort_values('english word')
 
-    #     if st.button('refresh table'):
-    #         st.dataframe(
-    #         data = curated_df,
-    #         width = 1000,
-    #         hide_index = 1
-    #                     )
+        if st.button('refresh table'):
+            st.dataframe(
+            data = curated_df.sort_values(['category','subcategory','english word']),
+            width = 1000,
+            hide_index = 1
+                        )
 
     #### View CSV ####
 
     # change in dev
-    user_mode = 'view'
+    # user_mode = 'view'
 
     if user_mode == 'view':
 
@@ -146,13 +149,13 @@ def main():
             if word_finder == 'english word':
                 word = st.text_input("Please enter the word you would like to see")
                 if st.button('find word'):
-                    i = df.loc[df['english'] == word]
+                    i = df.loc[df['english word'] == word]
                     st.write(i)
 
             elif word_finder == 'հայերէնի բար':
                 word = st.text_input("Please enter the word you would like to see")
                 if st.button('find word'):
-                    i = df.loc[df['հայերէն'] == word]
+                    i = df.loc[df['հայերէնի բար'] == word]
                     st.write(i)
 
             elif word_finder == 'pronounciation':
@@ -171,7 +174,7 @@ def main():
             if filter == 'lesson':
                 lesson_selection = st.selectbox("Choose a lesson number",lesson_list)
                 curated_df = df[(df['lesson'] == lesson_selection)]
-                curated_df.sort_values(['category','subcategory','english'])
+                curated_df = curated_df.sort_values(['category','subcategory','english word'])
                 st.dataframe(
                     data = curated_df,
                     width = 1000,
