@@ -9,6 +9,7 @@ import streamlit as st
 import pandas as pd
 from csv import writer
 import numpy as np
+import json
 from tempfile import NamedTemporaryFile
 import shutil
 from pandas.api.types import (
@@ -26,7 +27,7 @@ from pandas.api.types import (
 st.set_page_config(page_title="western armenian dictionary", page_icon="🇦🇲")
 # set up title on the web application
 st.title("western armenian dictionary")
-st.header("tool for tori to review western armenian words as they learn them :)")
+st.header("tool for tori to organize western armenian words as they learn them :)")
 
 ##############################################################################
 
@@ -39,28 +40,8 @@ df['english word'] = pd.to_numeric(df['english word'], errors='ignore')
 
 #### Define References ####
 
-categories = {
-
-    'beings':       ['people','family','animals'],
-    'food':         ['drinks','vegetables','fruit','grains','spices',
-                     'protein','general food','uncategorized','dishes'],
-    'nouns':       ['nature','music','clothes','toys','kitchen',
-                     'body parts','general things','non-physical'],
-    'time':         ['months','days','time'],
-    'other':        ['weather','colors','numbers','rank'],
-    'places':       ['countries','continents','armenian places',
-                     'general places','directions'],
-    'verbs':        ['infinative verbs','present tense','past tense',
-                     'future tense','past perfect tense','imperative verb',
-                     'irregular conjugation','"to be" conjugation','negative conjugation'],
-    'adjectives':   ['size','quantity','quality','behavior','physical state',
-                     'physical description','time','uncategorized adj'],
-    'language':     ['prefix','suffix','alphabet','pronouns','languages','grammatical terms',
-                     'association terms','conjunctions','demonstratives'],
-    'conversation': ['questions','answers'],
-    'adverbs':      ['time','place','manner','frequency','degree','conjuctive',
-                     'interrogative','polarity']
-              }
+with open('word_categories.json') as fp:
+    categories = json.load(fp)
 
 mode = ['append','view']
 
@@ -140,7 +121,7 @@ def main():
 
     #### View CSV ####
 
-    # change in dev
+    # when in prod, uncomment below line
     # user_mode = 'view'
 
     if user_mode == 'view':
@@ -167,6 +148,7 @@ def main():
                 if st.button('find word'):
                     i = df.loc[df['pronounciation'] == word]
                     st.write(i)
+
         if search == 'table':
             filter = st.selectbox("Would you like to filter based on lesson or category?",['lesson','category'])
             if filter == 'category':
