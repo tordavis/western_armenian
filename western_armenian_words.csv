@@ -1,6 +1,6 @@
 category,subcategory,english word,հայերէնի բար,pronounciation,lesson
 food,drinks,tea,թէյ,tey
-things,music,song,երգ,yerk
+nouns,music,song,երգ,yerk
 food,drinks,coffee,սուրճ,soorj
 food,drinks,wine,գինի,kini
 food,drinks,herbal tea,խոտաբոյսերու թէյ,khodapooyserov tey
@@ -118,7 +118,7 @@ beings,family,grandpa,մեծ պապա,medz baba,18
 beings,family,grandmother,մեծ մայր,medz mayr,18
 beings,family,grandma,մեծ մամա,medz mama,18
 beings,family,grandchild,թոռնիկ,tornig,18
-beings,animals,cat,կատու,gadoo
+beings,animals,cat,կատու,gadoo,2
 beings,animals,wolf,գայլ,kayl
 beings,animals,bird,թռչուն,trchoon
 beings,animals,butterfly,թիթերնիկ,titernig
@@ -209,8 +209,8 @@ time,time,afternoon,կէսօրէ վերջ,gesore verch,8
 time,time,evening,իրիկուն,irigoon,8
 time,time,evening (formal),երեկոյ,yerego,8
 time,time,night,գիշեր,kisher,8
-time,days,day,օր,or,1
-time,days,today,այսօր,aysor,1
+time,days,day,օր,or,0
+time,days,today,այսօր,aysor,0
 time,days,yesterday,երէկ,yereg,16
 time,days,tomorrow,վաղը,vaghuh,16
 time,time,present,ներկայ,nerga,17
@@ -280,19 +280,19 @@ adjectives,physical description,colorless,տժգոյն,djkooyn,30
 places,general places,outside,դուրս,toorse,30
 adjectives,quantity,half,կիսատ,gisad,30
 adjectives,quantity,half,թերի,teri,30
-things,nature,island,կղզի,geghzi,30
-things,nature,penninsula,թերակղզի,terageghzi,30
+nouns,nature,island,կղզի,geghzi,30
+nouns,nature,penninsula,թերակղզի,terageghzi,30
 adjectives,quality,same,նոյն,noyn,30
-things,clothes,coat,վերարկու,verargoo,30
-things,clothes,shoes,կօշիկ,goshig,15
-things,clothes,sandal,սանդալ,santal,15
-things,clothes,clothes,հագուստ,hakoosd,15
-things,clothes,hat,գլխարկ,klkharg,16
-things,clothes,crown,թագ,tak,
-things,clothes,clock-watch,ժամացոյց,jamatsooyts,
-things,clothes,ring,մատանի,madani,26
-language,languages,Armenian,Հայերէն,Hayeren,5
-language,languages,English,Անգլերէն,Ankleren,6
+nouns,clothes,coat,վերարկու,verargoo,30
+nouns,clothes,shoes,կօշիկ,goshig,15
+nouns,clothes,sandal,սանդալ,santal,15
+nouns,clothes,clothes,հագուստ,hakoosd,15
+nouns,clothes,hat,գլխարկ,klkharg,16
+nouns,clothes,crown,թագ,tak,
+nouns,clothes,clock-watch,ժամացոյց,jamatsooyts,
+nouns,clothes,ring,մատանի,madani,26
+language,languages,Armenian,Հայերէն,Hayeren,0
+language,languages,English,Անգլերէն,Ankleren,1
 language,languages,Spanish,Սպաներէն,Esbaneren,27
 language,languages,German,Գերմաներէն,Kermaneren,27
 language,languages,French,Ֆրանսերէն,Franseren,27
@@ -323,9 +323,9 @@ language,suffix,place for something,-անոց,-anots,31
 language,suffix,place for something,-նոց,-nots,31
 language,suffix,place for something,-արան,-aran,31
 language,grammatical terms,suffix,վերջածանց,verchadzants,31
-things,nature,stream / creek,գետակ,kedag,31
-things,general things,tool,գործիք,kordik,31
-things,general things,iron,արդուկ,artoog,31
+nouns,nature,stream / creek,գետակ,kedag,31
+nouns,general things,tool,գործիք,kordik,31
+nouns,general things,iron,արդուկ,artoog,31
 adjectives,behavior,brotherly,եղբայրական,yeghpayragan,31
 adjectives,uncategorized adj,royal,թագաւորական,takavoragan,31
 places,general places,hospital,հիւանդանոց,hivantanots,31
@@ -347,3 +347,39 @@ adjectives,time,late,ուշ,oosh,31
 adjectives,quantity,both,երկուքը,yergookuh,31
 conversation,questions,How old are you?,Քանի՞ տարեկան ես։,Kani daregan es?,31
 conversation,answers,I am ____ years old.,Ես ____ տարեկան եմ։,Yes ____ dareganem.,31
+language,association terms,with someone,...ի հետ,...i hed,
+language,grammatical terms,alphabet,այբուբեն,aypoopen,0
+language,conjunctions,and,ու,oo,0
+language,conjunctions,and,եւ,yev,0
+language,demonstratives,this,այս,ays,0
+verbs,"""to be"" conjugation",is,է,e,0
+adjectives,quality,good,լաւ,lav,0
+verbs,"""to be"" conjugation",is not,չէ,che,0
+adjectives,quality,better,աւելիլաւ,avelilav,0
+adjectives,quality,best,ամենալաւ,amenalav,0
+adjectives,quantity,most,ամենա,amena,0
+adjectives,quantity,more,աւելի,aveli,0
+language,conjunctions,but,բայց,payts,0
+verbs,infinative verbs,to learn,սորվիլ,sorvil,0
+language,pronouns,I,ես,yes,0
+language,conjunctions,because,որովհետեւ,vorovhedev,0
+verbs,infinative verbs,to speak,խօսիլ,khosil,0
+adverbs,interrogative,why,ինչու,inchoo,0
+adverbs,interrogative,what,ինչ,inch,0
+adverbs,polarity,yes,այո,ayo,0
+adverbs,polarity,no,չէ,che,0
+adverbs,polarity,no,ոչ,voch,0
+adverbs,place,there is,կա,ga,1
+adverbs,place,there isn't,չիկա,chiga,1
+verbs,infinative verbs,to like,սիրել,sirel,1
+adjectives,quantity,a little,քիչ մը,kich muh,1
+language,grammatical terms,word,բար,par,1
+nouns,general things,dictionary,բարարան,pararan,1
+language,grammatical terms,vocabulary,բարապաշար,parabashar,1
+verbs,infinative verbs,to know,գիտել,kidel,1
+verbs,infinative verbs,to mean,նշանակել,nshanagel,1
+adjectives,quantity,all / whole,բոլոր,polor,1
+adverbs,place,there are,կան,gan,1
+verbs,infinative verbs,to improve,զարգացնել,zarkatsnel,1
+nouns,non-physical,class,դաս,tas,1
+verbs,infinative verbs,to have,ունենալ,oonenal,1

@@ -44,7 +44,7 @@ categories = {
     'beings':       ['people','family','animals'],
     'food':         ['drinks','vegetables','fruit','grains','spices',
                      'protein','general food','uncategorized','dishes'],
-    'things':       ['nature','music','clothes','toys','kitchen',
+    'nouns':       ['nature','music','clothes','toys','kitchen',
                      'body parts','general things','non-physical'],
     'time':         ['months','days','time'],
     'other':        ['weather','colors','numbers','rank'],
@@ -52,11 +52,14 @@ categories = {
                      'general places','directions'],
     'verbs':        ['infinative verbs','present tense','past tense',
                      'future tense','past perfect tense','imperative verb',
-                     'irregular conjugation'],
+                     'irregular conjugation','"to be" conjugation','negative conjugation'],
     'adjectives':   ['size','quantity','quality','behavior','physical state',
                      'physical description','time','uncategorized adj'],
-    'language':     ['prefix','suffix','alphabet','pronouns','languages','grammatical terms'],
-    'conversation': ['questions','answers']
+    'language':     ['prefix','suffix','alphabet','pronouns','languages','grammatical terms',
+                     'association terms','conjunctions','demonstratives'],
+    'conversation': ['questions','answers'],
+    'adverbs':      ['time','place','manner','frequency','degree','conjuctive',
+                     'interrogative','polarity']
               }
 
 mode = ['append','view']
