@@ -12,10 +12,11 @@
                     "future tense", "past perfect tense", "imperative verb",
                     "irregular conjugation", "\"to be\" conjugation", "negative conjugation"],
     "adjectives":   ["size", "quantity", "quality", "behavior", "physical state",
-                    "physical description", "time", "uncategorized adj"],
+                    "physical description", "time", "uncategorized adj","pertaining to"],
     "language":     ["prefix", "suffix", "alphabet", "pronouns", "languages",
-                    "grammatical terms", "association terms", "conjunctions", "demonstratives"],
-    "conversation": ["questions", "answers"],
+                    "grammatical terms", "association terms", "conjunctions", "demonstratives",
+                    "preposition"],
+    "conversation": ["questions", "answers","common phrases"],
     "adverbs":      ["time", "place", "manner", "frequency", "degree", "conjuctive",
                     "interrogative", "polarity"]
                 }
