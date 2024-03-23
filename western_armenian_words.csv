@@ -1,9 +1,9 @@
 category,subcategory,english word,հայերէնի բար,pronounciation,lesson
 food,drinks,tea,թէյ,tey,6
-nouns,music,song,երգ,yerk
+things,music,song,երգ,yerk,7
 food,drinks,coffee,սուրճ,soorj,4
 food,drinks,wine,գինի,kini,6
-food,drinks,herbal tea,խոտաբոյսերու թէյ,khodapooyserov tey
+food,drinks,herbal tea,խոտաբոյսերու թէյ,khodapooyserov tey,7
 food,drinks,hot chocolate,տաք շոքոլա,dak shakola
 food,vegetables,onion,սոխ,sokh
 food,vegetables,carrot,ստեպղին,esdebghin
@@ -55,10 +55,10 @@ food,spices,black pepper,սեւ պղպեղ,sev bghbegh
 food,dishes,,ղափամա,ghapama
 food,dishes,,իչ,ich
 food,dishes,,մանթը,mantuh
-food,general,food,ճաշ,jash
+food,general,food,ճաշ,jash,8
 food,general,homemade food,տնական ճաշ,dnagan jash
-food,general,dinner,ընթրիք,uhntrik
-food,general,family dinner,ընտանեկան ընթրիք,uhdanegan uhntrik
+food,general,dinner,ընթրիք,uhntrik,7
+food,general,family dinner,ընտանեկան ընթրիք,uhdanegan uhntrik,7
 food,general,baked good,կարկանդակ,gargantag
 food,general,breakfast,նախաճաշ,nakhajash
 food,uncategorized food,cheese,պանիր,banir
@@ -74,8 +74,8 @@ beings,people,friend,ընկեր,uhnger,2
 beings,people,female friend,ընկերուհի,uhngeroohi,2
 beings,people,soldier,զինուոր,zinvor,5
 beings,people,ass,էշ,esh,5
-beings,people,twin / couple,զոյգ,zooyk
-beings,people,girl,աղջիկ,aghchig
+beings,people,twin / couple,զոյգ,zooyk,7
+beings,people,girl,աղջիկ,aghchig,7
 beings,people,king,թագաւոր,takavor
 beings,people,queen,թագուհի,takoohi
 beings,people,people / society / community,ժողովուրդ,joghavoort
@@ -154,7 +154,7 @@ other,numbers,3,երեք,yerek,9
 other,numbers,4,չորս,chors,9
 other,numbers,5,հինգ,hink,9
 other,numbers,6,վեց,vets,9
-other,numbers,7,եօթը,yotuh,9
+other,numbers,7,եօթը,yotuh,7
 other,numbers,8,ութը,ootuh,9
 other,numbers,9,ինը,inuh,9
 other,numbers,10,տասը,dasuh,9
@@ -192,7 +192,7 @@ time,months,July,Յուլիս,Hoolis,22
 time,months,August,Օգոստոս,Okosdos,22
 time,months,September,Սեպտեմբեր,Sebdemper,22
 time,months,October,Հոկտեմբեր,Hogdemper,22
-time,months,November,Նոյեմբեր,Noyemper,22
+time,months,November,Նոյեմբեր,Noyemper,7
 time,months,December,Դեկտեմբեր,Tegdemper,22
 time,days,week,շաբաթ,shapat,16
 time,days,monday,երկուշաբթի,yergooshapti,16
@@ -211,14 +211,14 @@ time,time,evening (formal),երեկոյ,yerego,8
 time,time,night,գիշեր,kisher,8
 time,days,day,օր,or,0
 time,days,today,այսօր,aysor,0
-time,days,yesterday,երէկ,yereg,16
+time,days,yesterday,երէկ,yereg,7
 time,days,tomorrow,վաղը,vaghuh,16
 time,time,present,ներկայ,nerga,17
 time,time,future,ապարռնի,abarni,17
 time,time,past,անցեալ,antsyal,17
 time,time,before,առաջ,arach,
 time,time,after,վերջ,verch,
-time,time,time / hours,ժամ,jam,
+time,time,time / hours,ժամ,jam,8
 time,time, during,ժամանակ,jamanag,
 time,special,birthday,տարեդարձ,daretarts,
 time,time,early,կանուխ,ganookh,
@@ -259,8 +259,8 @@ places,general places,church,եկեղեցի,yegeghetsi,5
 places,general places,motherland,հայրենիքն,hayerenikn,5
 places,general places,prison,բանտ,pand,6
 places,general places,pharmacy,դեղարան,tegharan,6
-places,general places,university,համալսարան,hamalsaran,
-places,general places,restaurant,ճաշարան,jasharan,
+places,general places,university,համալսարան,hamalsaran,8
+places,general places,restaurant,ճաշարան,jasharan,8
 places,general places,place,տեղէն,deghen,
 places,general places,museum,թանգարան,tankaran,
 places,general places,everywhere,ամէն տեղ,amen degh,
@@ -280,17 +280,17 @@ adjectives,physical description,colorless,տժգոյն,djkooyn,30
 places,general places,outside,դուրս,toorse,30
 adjectives,quantity,half,կիսատ,gisad,30
 adjectives,quantity,half,թերի,teri,30
-nouns,nature,island,կղզի,geghzi,30
-nouns,nature,penninsula,թերակղզի,terageghzi,30
+things,nature,island,կղզի,geghzi,30
+things,nature,penninsula,թերակղզի,terageghzi,30
 adjectives,quality,same,նոյն,noyn,30
-nouns,clothes,coat,վերարկու,verargoo,30
-nouns,clothes,shoes,կօշիկ,goshig,15
-nouns,clothes,sandal,սանդալ,santal,15
-nouns,clothes,clothes,հագուստ,hakoosd,15
-nouns,clothes,hat,գլխարկ,klkharg,16
-nouns,clothes,crown,թագ,tak,
-nouns,clothes,clock-watch,ժամացոյց,jamatsooyts,
-nouns,clothes,ring,մատանի,madani,26
+things,clothes,coat,վերարկու,verargoo,30
+things,clothes,shoes,կօշիկ,goshig,15
+things,clothes,sandal,սանդալ,santal,15
+things,clothes,clothes,հագուստ,hakoosd,15
+things,clothes,hat,գլխարկ,klkharg,16
+things,clothes,crown,թագ,tak,
+things,clothes,clock-watch,ժամացոյց,jamatsooyts,
+things,clothes,ring,մատանի,madani,26
 language,languages,Armenian,Հայերէն,Hayeren,0
 language,languages,English,Անգլերէն,Ankleren,1
 language,languages,Spanish,Սպաներէն,Esbaneren,27
@@ -323,9 +323,9 @@ language,suffix,place for something,-անոց,-anots,31
 language,suffix,place for something,-նոց,-nots,31
 language,suffix,place for something,-արան,-aran,31
 language,grammatical terms,suffix,վերջածանց,verchadzants,31
-nouns,nature,stream / creek,գետակ,kedag,31
-nouns,general things,tool,գործիք,kordik,31
-nouns,general things,iron,արդուկ,artoog,31
+things,nature,stream / creek,գետակ,kedag,31
+things,general things,tool,գործիք,kordik,31
+things,general things,iron,արդուկ,artoog,31
 adjectives,pertaining to,brotherly,եղբայրական,yeghpayragan,31
 adjectives,uncategorized adj,royal,թագաւորական,takavoragan,31
 places,general places,hospital,հիւանդանոց,hivantanots,31
@@ -361,7 +361,7 @@ adjectives,quantity,most,ամենա,amena,0
 adjectives,quantity,more,աւելի,aveli,0
 language,conjunctions,but,բայց,payts,0
 verbs,infinative verbs,to learn,սորվիլ,sorvil,0
-language,pronouns,I,ես,yes,0
+language,prothings,I,ես,yes,0
 language,conjunctions,because,որովհետեւ,vorovhedev,0
 verbs,infinative verbs,to speak,խօսիլ,khosil,0
 adverbs,interrogative,why,ինչու,inchoo,0
@@ -374,98 +374,98 @@ adverbs,place,there isn't,չիկա,chiga,1
 verbs,infinative verbs,to like,սիրել,sirel,1
 adjectives,quantity,a little,քիչ մը,kich muh,1
 language,grammatical terms,word,բար,par,1
-nouns,general things,dictionary,բարարան,pararan,1
+things,general things,dictionary,բարարան,pararan,1
 language,grammatical terms,vocabulary,բարապաշար,parabashar,1
 verbs,infinative verbs,to know,գիտել,kidel,1
 verbs,infinative verbs,to mean,նշանակել,nshanagel,1
 adjectives,quantity,all / whole,բոլոր,polor,1
 adverbs,place,there are,կան,gan,1
 verbs,infinative verbs,to improve,զարգացնել,zarkatsnel,1
-nouns,non-physical,class / lesson,դաս,tas,1
+things,non-physical,class / lesson,դաս,tas,1
 verbs,infinative verbs,to have,ունենալ,oonenal,1
 language,grammatical terms,letter,տառ,dar,2
-nouns,general things,book,գիրք,kirk,2
+things,general things,book,գիրք,kirk,2
 language,conjunctions,that,որ,vor,2
 language,conjunctions,or,կամ,gam,2
-language,pronouns,my,իմ,im,2
+language,prothings,my,իմ,im,2
 adjectives,uncategorized adj,favorite,ամենասիրած,amenasiradz,2
 conversation,common phrases,of course,անշուշտ,anshooshd,2
 adverbs,degree,very,շատ,shad,2
 adjectives,uncategorized adj,interesting,հետաքրքրական,hedakrkragan,2
-language,pronouns,your,քու,koo,3
+language,prothings,your,քու,koo,3
 language,languages,Eastern Armenian,Արեւելահայերէն,Arevelahayeren,3
 language,languages,Western Armenian,Արեւմտահայերէն,Arevmdahayeren,3
-language,pronouns,you,դուն,toon,3
+language,prothings,you,դուն,toon,3
 verbs,infinative verbs,to read,կարդալ,gartal,3
 language,grammatical terms,sentence,նախադասութիւն,nakhatasootyoon,3
 adjectives,quantity,a few,մի քանի,mi kani,3
-nouns,non-physical,example,օրինակ,orinag,3
+things,non-physical,example,օրինակ,orinag,3
 verbs,"""to be"" conjugation",are,էն,en,3
-nouns,general things,star,աստղեր,asdgher,3
-nouns,nature,violet,մանուշակ,manooshag,3
-nouns,nature,rose,վարդ,vart,3
+things,general things,star,աստղեր,asdgher,3
+things,nature,violet,մանուշակ,manooshag,3
+things,nature,rose,վարդ,vart,3
 food,fruit,orange,նարինջ,narinch,3
 language,preposition,with (object),ով,ov,2
 adverbs,interrogative,how,ինչպէս,inchbes,4
 conversation,questions,How are you?,Ինչպէ՞ս ես։,Inchbes es?,4
 adverbs,time,then / after,յետոյ,hedo,4
-nouns,non-physical,work,գործ,kordz,4
-nouns,body parts,eye,աչք,achk,4
-nouns,body parts,ear,ականջ,aganch,4
+things,non-physical,work,գործ,kordz,4
+things,body parts,eye,աչք,achk,4
+things,body parts,ear,ականջ,aganch,4
 conversation,questions,What is it?,Ի՞նչ է։,Inch e?,4
-nouns,body parts,mouth,բերան,peran,4
-nouns,nature,plant,բոյս,pooys,4
-nouns,general things,key,բանալի,panali,4
+things,body parts,mouth,բերան,peran,4
+things,nature,plant,բոյս,pooys,4
+things,general things,key,բանալի,panali,4
 verbs,infinative verbs,to open,բանալ,panal,4
-nouns,kitchen,cup,գաւաթ,kavat,4
+things,kitchen,cup,գաւաթ,kavat,4
 adjectives,quantity,every,ամէն,amen,4
 adjectives,size,small,պզտիկ,bzdig,4
 adjectives,size,big,մեծ,medz,4
-nouns,toys,ball,գնդակ,kntag,4
-nouns,kitchen,spoon,դգալ,tkal,4
-nouns,kitchen,knife,դանակ,tanag,4
-nouns,kitchen,fork,պատառաքաղ,badarakagh,4
+things,toys,ball,գնդակ,kntag,4
+things,kitchen,spoon,դգալ,tkal,4
+things,kitchen,knife,դանակ,tanag,4
+things,kitchen,fork,պատառաքաղ,badarakagh,4
 adjectives,physical description,beautiful,անուշիկ,anooshig,4
 conversation,answers,My name is ____.,Իմ անունս ____ է։,Im anoons ____ e.,4
 conversation,questions,What is your name?,Ի՞նչ է անունդ։,Inch  e anoont?,4
-nouns,non-physical,name,անուն,anoon,4
+things,non-physical,name,անուն,anoon,4
 conversation,common phrases,I am ____.,Ես ____ եմ։,Yes ____ em.,4
 adverbs,time,now,հիմա,hima,4
 verbs,infinative verbs,to say,ըսել,uhsel,5
 adjectives,uncategorized adj,other / another,ուրիշ,oorish,5
 verbs,infinative verbs,to write,գրել,krel,5
-nouns,nature,sky,երկինք,yergink,5
+things,nature,sky,երկինք,yergink,5
 adjectives,pertaining to,armenian,հայկական,haygagan,5
-nouns,general things,bell,զանգակ,zankag,5
+things,general things,bell,զանգակ,zankag,5
 adjectives,behavior,busy,զբաղուած,ezpaghvadz,5
 conversation,common phrases,I am not ____.,Ես ____ չեմ։,Yes ____ chem.,5
-nouns,general things,page,էջ,ech,5
-nouns,non-physical,life,կեանք,gyank,5
+things,general things,page,էջ,ech,5
+things,non-physical,life,կեանք,gyank,5
 adjectives,behavior,difficult,դժուար,tjvar,5
 adverbs,frequency,sometimes,երբեմն,yerpemn,5
 adjectives,behavior,easy,դիւրին,tyoorin,5
 verbs,infinative verbs,to do,ընել,uhnel,5
-nouns,general things,thing to do,ընելիք,uhnelik,5
-nouns,general things,thing to say,ըսելիք,uhselik,5
-nouns,general things,thing,բան,pan,5
+things,general things,thing to do,ընելիք,uhnelik,5
+things,general things,thing to say,ըսելիք,uhselik,5
+things,general things,thing,բան,pan,5
 language,grammatical terms,lowercase,փոքրատառ,pokradar,6
 language,grammatical terms,uppercase,մեծատառ,medzadar,6
 language,grammatical terms,name of letter,տառին անունը,darin anoonuh,6
-nouns,clothes,glasses,ակնոց,agnots,6
-nouns,clothes,sunglasses,արեւի ակնոց,arevi agnots,6
-nouns,general things,ash,մոխիր,mokhir,6
+things,clothes,glasses,ակնոց,agnots,6
+things,clothes,sunglasses,արեւի ակնոց,arevi agnots,6
+things,general things,ash,մոխիր,mokhir,6
 food,uncategorized,almond,նուշ,noosh,6
-nouns,nature,nest,բոյն,pooyn,6
-nouns,general things,pillow,բարձ,parts,6
-nouns,non-physical,step,քայլ,kayl,6
+things,nature,nest,բոյն,pooyn,6
+things,general things,pillow,բարձ,parts,6
+things,non-physical,step,քայլ,kayl,6
 verbs,infinative verbs,to walk,քալել,kalel,6
 adjectives,quality,tasty,համով,hamov,6
-nouns,general things,pen,գրիչ,krich,6
-nouns,non-physical,taste,համ,ham,6
-nouns,general things,medicine,դեղ,tegh,6
-nouns,general things,mask,դիմակ,timag,6
+things,general things,pen,գրիչ,krich,6
+things,non-physical,taste,համ,ham,6
+things,general things,medicine,դեղ,tegh,6
+things,general things,mask,դիմակ,timag,6
 adverbs,frequency,always,միշտ,mishd,6
-nouns,general things,flag,դրօշակ,troshag,6
+things,general things,flag,դրօշակ,troshag,6
 conversation,common phrases,me too,ես ալ,yes al,6
 conversation,common phrases,you too,դուն ալ,toon al,6
 adverbs,degree,too,ալ,al,6
@@ -473,3 +473,46 @@ adverbs,interrogative,where,ուր,oor,6
 conversation,questions,Where do you live?,Ո՞ ւր կ՚ապրիս։,Oor gabris?,6
 verbs,infinative verbs,to live,ապրիl,abril,6
 language,conjunctions,and,իսկ,isg,6
+conversation,common phrases,that's right,ճիշդ է,jisht e,7
+things,non-physical,dream,երազ,yeraz,7
+verbs,infinative verbs,to see,տեսնել,desnel,7
+verbs,infinative verbs,to listen,լսել,lsel,7
+adjectives,size,long,երկար,yergar,7
+verbs,"""to be"" conjugation",was,էր,er,7
+things,non-physical,type,տեսակ,desag,7
+things,non-physical,sound,Հնչիւն,hnchyoon,7
+language,grammatical terms,consonant,բաղաձայն,paghatsayn,7
+language,grammatical terms,vowel,ձայնաւոր,tsaynavor,7
+things,non-physical,sound,ձայն,tsayn,7
+adverbs,probability,maybe,կարելի,gareli,7
+language,grammatical terms,noun,գոյական,koyagan,7
+other,weather,snow,ձիւն,tysoon,7
+things,nature,grass,խոտ,khod,7
+adjectives,uncategorized adj,herbal,խոտաբոյս,khodapooys,7
+conversation,common phrases,slowly but slowly,կամաց-կամաց,gamats-gamats,8
+verbs,infinative verbs,to go,երթալ,yertal,8
+verbs,infinative verbs,to eat,ուտել,oodel,8
+verbs,auxiliary verb,will,պիտի,bidi,8
+conversation,common phrases,good morning,բարի լոյս,pari looys,8
+adjectives,behavior,kind,բարի,pari,8
+things,general things,light,լոյս,looys,8
+adjectives,behavior,naughty,չար,char,8
+conversation,common phrases,good afternoon,բարի կէսօր,pari gesor,8
+conversation,common phrases,good evening,բարի իրիկուն,pari irigoon,8
+conversation,common phrases,good night (eastern),բարի գիշեր,pari kisher,8
+conversation,common phrases,good night (western),գիշեր բարի,kisher pari,8
+conversation,common phrases,response to good night,լոյս բարի,looys pari,8
+verbs,infinative verbs,to sleep,պառկիլ,bargil,8
+verbs,infinative verbs,to wake up,արթնանալ,artnanal,8
+language,grammatical terms,question,հարցում,hartsoom,8
+language,grammatical terms,answer,պատասխան,badaskhan,8
+conversation,questions,From where?,Ուրտեղէ՞ն։,Oordeghen?,8
+conversation,questions,How much?,Քանի՞։,Kani?,8
+conversation,questions,How much is it?,Քանի՞ է։,Kaniye?,8
+conversation,questions,With whom?,Որո՞ւ հետ։,Voroo hed?,8
+conversation,answers,I'm with ____.,Իմ ____ հետ։,Im ____ hed.,8
+conversation,questions,Who?,Ո՞վ։,Ov?,8
+conversation,questions,Who is it?,Ո՞վ է։,Ov e?,8
+conversation,questions,What?,Ի՞նչ։,Inch?,8
+conversation,questions,How?,Ինչպէ՞ս։,Inchbes?,8
+conversation,questions,When?,Ե՞րբ։,Yerp?,8
