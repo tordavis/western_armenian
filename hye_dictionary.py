@@ -122,7 +122,7 @@ def main():
     #### View CSV ####
 
     # when in prod, uncomment below line
-    # user_mode = 'view'
+    user_mode = 'view'
 
     if user_mode == 'view':
 
