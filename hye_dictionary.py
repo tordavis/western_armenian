@@ -88,7 +88,9 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
 def main():
 
-    user_mode = st.selectbox("Please select the mode you want to work in:", mode)
+    # when in prod, uncomment below line
+    user_mode = 'view'
+    # user_mode = st.selectbox("Please select the mode you want to work in:", mode)
 
     #### Append to CSV ####
 
@@ -120,9 +122,6 @@ def main():
                         )
 
     #### View CSV ####
-
-    # when in prod, uncomment below line
-    user_mode = 'view'
 
     if user_mode == 'view':
 
