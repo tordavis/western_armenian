@@ -81,15 +81,15 @@ beings,people,queen,թագուհի,takoohi,10
 beings,people,people / society / community,ժողովուրդ,joghavoort,10
 beings,people,prince,իշխան,ishkhan,10
 beings,people,boy,տղա,dgha,14
-beings,people,children,պզտիկներ,bzdigner,
-beings,people,person (singular),մարդ,mart,
-beings,people,person (groups) / soul,հոգի,hoki,
-beings,people,my love / my soul,հոգիս,hokis,
+beings,people,children,պզտիկներ,bzdigner,17
+beings,people,person (singular),մարդ,mart,17
+beings,people,person (groups) / soul,հոգի,hoki,17
+beings,people,my love / my soul,հոգիս,hokis,17
 beings,people,guest,հիւր,hyoor,
 beings,people,armenian person,հայ,hay,5
 beings,people,classmate,դասընկեր,tasuhnger,2
 beings,people,female classmate,դասընկերուհի,tasuhngeroohi,2
-beings,people,member,անդամ,antam,
+beings,people,member,անդամ,antam,18
 beings,people,owner,ունեցող,oonetsogh,
 beings,people,crowd of armenians,հայութիւն,hayootyoon,
 beings,people,watchmaker,ժամագործ,jamakordz,
@@ -98,26 +98,26 @@ beings,people,god,աստուածն,asdvadzn,
 beings,people,children,փոքրիկ,pokrig,
 beings,people,greek person,յոյն,hooyn,
 beings,family,family,ընտանիք,uhndanik,5
-beings,family,parents,ծնողք,dznoghk,18
-beings,family,father,հայր,hayr,18
-beings,family,dad,հայրիկ,hayrig,18
-beings,family,papa,պապա,baba,18
-beings,family,mother,մայր,mayr,18
-beings,family,mom,մայրիկ,mayrig,18
-beings,family,mama,մամա,mama,18
-beings,family,spouse,ամուսին,amoosin,18
-beings,family,wife,կին,gin,18
-beings,family,child,զաւակ,zavag,18
-beings,family,brother,եղբայր,yeghpayr,18
-beings,family,brother,աղբարիկ,aghparig,18
-beings,family,little brother,եղբայրիկ,yeghpayrig,18
-beings,family,sister,քոյր,kooyr,18
-beings,family,little sister,քոյրիկ,kooyrig,18
-beings,family,grandfather,մեծ հայր,medz hayr,18
-beings,family,grandpa,մեծ պապա,medz baba,18
-beings,family,grandmother,մեծ մայր,medz mayr,18
-beings,family,grandma,մեծ մամա,medz mama,18
-beings,family,grandchild,թոռնիկ,tornig,18
+beings,family,parents,ծնողք,dznoghk,17
+beings,family,father,հայր,hayr,17
+beings,family,dad,հայրիկ,hayrig,17
+beings,family,papa,պապա,baba,17
+beings,family,mother,մայր,mayr,17
+beings,family,mom,մայրիկ,mayrig,17
+beings,family,mama,մամա,mama,17
+beings,family,spouse,ամուսին,amoosin,17
+beings,family,wife,կին,gin,17
+beings,family,child,զաւակ,zavag,17
+beings,family,brother,եղբայր,yeghpayr,17
+beings,family,brother,աղբարիկ,aghparig,17
+beings,family,little brother,եղբայրիկ,yeghpayrig,17
+beings,family,sister,քոյր,kooyr,17
+beings,family,little sister,քոյրիկ,kooyrig,17
+beings,family,grandfather,մեծ հայր,medz hayr,17
+beings,family,grandpa,մեծ պապա,medz baba,17
+beings,family,grandmother,մեծ մայր,medz mayr,17
+beings,family,grandma,մեծ մամա,medz mama,17
+beings,family,grandchild,թոռնիկ,tornig,17
 beings,animals,cat,կատու,gadoo,2
 beings,animals,wolf,գայլ,kayl,
 beings,animals,bird,թռչուն,trchoon,10
@@ -192,7 +192,7 @@ time,months,August,Օգոստոս,Okosdos,22
 time,months,September,Սեպտեմբեր,Sebdemper,22
 time,months,October,Հոկտեմբեր,Hogdemper,22
 time,months,November,Նոյեմբեր,Noyemper,7
-time,months,December,Դեկտեմբեր,Tegdemper,22
+time,months,December,Դեկտեմբեր,Tegdemper,17
 time,days,week,շաբաթ,shapat,16
 time,days,monday,երկուշաբթի,yergooshapti,16
 time,days,tuesday,երեքշաբթի,yerekshapti,16
@@ -580,7 +580,7 @@ things,general things,compass,կողմնացոյց,goghmnatsooyts,13
 places,general places,entrance,մուտք,moodk,13
 places,general places,exit,ելք,yelk,13
 verbs,infinative verbs,to enter,մտնել,mdnel,13
-verbs,infinative verbs,to go out,ելլել,yellel,13
+verbs,infinative verbs,to go out / stand up,ելլել,yellel,13
 language,preposition,at,ին,in,13
 verbs,irregular conjugation,I ate,կերայ,gera,14
 verbs,irregular conjugation,you ate,կերար,gerar,14
@@ -627,3 +627,51 @@ things,general things,bridge,կամուրջ,gamoorch,15
 things,nature,river,գետ,ked,15
 things,general things,mirror,հայելի,hayeli,15
 adjectives,physical description,clean / clear,մաքուր,makoor,15
+verbs,infinative verbs,to translate,թարգմանել,tarkmanel,16
+verbs,infinative verbs,to sing,երգել,yerkel,16
+things,non-physical,culture,մշակոյթ,mshagooyt,16
+adjectives,quality,unique,յատուկ,hadoog,16
+language,preposition,next to (something),...ին քով,...in kov,16
+adverbs,interrogative,which,որ մէկ,vor meg,16
+verbs,infinative verbs,to get cold,պաղիլ,baghil,16
+verbs,infinative verbs,to put,դնել,tenel,16
+conversation,common phrases,when i was young,երբ ես պզտիկ էի,yerp yes bzdig eyi,16
+things,non-physical,vacation,արձակուրդ,artsagoort,17
+verbs,infinative verbs,to start,սկսիլ,esgesil,17
+things,body parts,head,գլուխ,klookh,17
+adjectives,quality,important,կարեւոր,garevor,17
+adjectives,quantity,piece,հատ,had,18
+adjectives,physical description,colorful,գունաւոր,koonavor,18
+language,preposition,to (somewhere),...ի,...i,18
+adverbs,manner,together,միասին,miyasin,18
+verbs,infinative verbs,to sit,նստիլ,nsdil,18
+adjectives,behavior,happy,ուրախ,oorakh,18
+language,grammatical terms,synonym,հոմանիշ,homanish,18
+language,demonstratives,those,այն,ayn,18
+adjectives,physical state,close,մօտ,mod,18
+adverbs,manner,to each other,իրարու,iraroo,18
+verbs,infinative verbs,to be called,կոչուիլ,gochvil,18
+language,grammatical terms,antonyms,Հականիշ,haganish,18
+adjectives,uncategorized adj,opposite,հակառակ,hagarag,18
+adjectives,physical description,short,կարճ,garj,18
+adjectives,uncategorized adj,fast,արագ,arak,18
+adjectives,physical state,healthy,առողջ,aroghch,18
+adjectives,uncategorized adj,slow,կամաց,gamats,18
+adjectives,physical description,dirty,աղտոտ,aghdod,18
+adjectives,physical state,sick,հիւանդ,hivant,18
+adjectives,physical description,ugly,տգէղ,dkegh,18
+adjectives,uncategorized adj,interesting,հետաքրքրական,hedakrkragan,18
+adjectives,uncategorized adj,interesting,հետաքրքրական,hedakrkir,18
+things,non-physical,story / history,պատմութիւն,badmootyoon,18
+verbs,infinative verbs,to fall,իյնալ,inal,19
+verbs,infinative verbs,to nap / rest,երկննալ,yergnnal,19
+verbs,infinative verbs,to go up,բարձրանալ,partsranal,19
+verbs,infinative verbs,to climb,մագլցիլ,makltsil,19
+verbs,infinative verbs,to go down,իջնել,ichnel,19
+verbs,infinative verbs,to run,վազել,vazel,19
+verbs,infinative verbs,to move,շարժիլ,sharjil,19
+adjectives,physical description,colorful,գոյնզգոյն,kooynezkooyn,19
+things,general things,side,կողմ,goghm,19
+things,nature,leaf,տերեւ,derev,19
+adjectives,quality,best,լաւագոյն,lavakooyn,19
+other,weather,ice,սառոյց,sarooyts,19
